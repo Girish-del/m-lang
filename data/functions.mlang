@@ -1,0 +1,31 @@
+
+scene add with a, b action {
+    wrap a + b;
+} cut
+
+cast result is call add with 5, 10;
+say result; 
+
+
+scene printDouble with x action {
+    say x + x;
+} cut
+
+call printDouble with 7; 
+
+
+scene hello action {
+    say 42;
+} cut
+
+call hello; 
+
+
+scene square with n action {
+    wrap n * n;
+} cut
+
+cast s is call square with call add with 3, 1;
+say s; 
+
+

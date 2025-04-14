@@ -53,12 +53,75 @@ class mlangListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by mlangParser#functionDecl.
+    def enterFunctionDecl(self, ctx:mlangParser.FunctionDeclContext):
+        pass
+
+    # Exit a parse tree produced by mlangParser#functionDecl.
+    def exitFunctionDecl(self, ctx:mlangParser.FunctionDeclContext):
+        pass
+
+
+    # Enter a parse tree produced by mlangParser#paramList.
+    def enterParamList(self, ctx:mlangParser.ParamListContext):
+        pass
+
+    # Exit a parse tree produced by mlangParser#paramList.
+    def exitParamList(self, ctx:mlangParser.ParamListContext):
+        pass
+
+
+    # Enter a parse tree produced by mlangParser#returnStmt.
+    def enterReturnStmt(self, ctx:mlangParser.ReturnStmtContext):
+        pass
+
+    # Exit a parse tree produced by mlangParser#returnStmt.
+    def exitReturnStmt(self, ctx:mlangParser.ReturnStmtContext):
+        pass
+
+
+    # Enter a parse tree produced by mlangParser#exprStmt.
+    def enterExprStmt(self, ctx:mlangParser.ExprStmtContext):
+        pass
+
+    # Exit a parse tree produced by mlangParser#exprStmt.
+    def exitExprStmt(self, ctx:mlangParser.ExprStmtContext):
+        pass
+
+
+    # Enter a parse tree produced by mlangParser#block.
+    def enterBlock(self, ctx:mlangParser.BlockContext):
+        pass
+
+    # Exit a parse tree produced by mlangParser#block.
+    def exitBlock(self, ctx:mlangParser.BlockContext):
+        pass
+
+
     # Enter a parse tree produced by mlangParser#expr.
     def enterExpr(self, ctx:mlangParser.ExprContext):
         pass
 
     # Exit a parse tree produced by mlangParser#expr.
     def exitExpr(self, ctx:mlangParser.ExprContext):
+        pass
+
+
+    # Enter a parse tree produced by mlangParser#functionCall.
+    def enterFunctionCall(self, ctx:mlangParser.FunctionCallContext):
+        pass
+
+    # Exit a parse tree produced by mlangParser#functionCall.
+    def exitFunctionCall(self, ctx:mlangParser.FunctionCallContext):
+        pass
+
+
+    # Enter a parse tree produced by mlangParser#argList.
+    def enterArgList(self, ctx:mlangParser.ArgListContext):
+        pass
+
+    # Exit a parse tree produced by mlangParser#argList.
+    def exitArgList(self, ctx:mlangParser.ArgListContext):
         pass
 
 
